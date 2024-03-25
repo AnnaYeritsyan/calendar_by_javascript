@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    <div class="calendar-navbar">
+        <div class="btnBackForth">
+
+            <button class="btnlr right but">
+                <div class="arrow ar">
+                    <span><</span>
+                    <span><</span>
+                    <span><</span>
+                    <!-- <div></div> -->
+            </div>
+                 </button>
+                    <button class="btnlr left but">
+                        <div class="arrow ar">
+                            <span>></span>
+                            <span>></span>
+                            <span>></span>
+                            <!-- <div></div> -->
+                    </div>
+                    </button>
+
+                    <input type="text" class="btnlr searchca" placeholder="Որոնել">
+                    <i class="fa fa-search"></i>
+
+
+
+        </div>
+
+        <div class="ec-button">
+
+            <button class="day buttonStyle">Օրեկան</button>
+            <button class="wek buttonStyle">Շաբաթական</button>
+            <button class="wek buttonStyle">Ամսական</button>
+        </div>
+    </div>
+
+<h1 class="year"></h1>
+
+    <div class="title ">
+        <div class="flx">
+            <div class="firsttd" style="border-right: 1px solid silver;">/</div>
+        
+        </div>
+
+    </div>
+    <div class="title  daytitle">
+        <div class="flx st">
+            <div class="firsttd" style="border-right: 1px solid silver;">/</div>
+           <div class="dayOne">
+            <span class="dh dayOnetext"></span>
+           </div>
+        </div>
+
+    </div>
+    <div class="contentCalendar">
+
+
+
+
+        <table class="table" style="width:100%">
+            <tr class="heading">
+            </tr>
+
+
+        </table>
+    </div>
+  
+    <script src="sc.js"></script>
+ 
+</body>
+
+</html>

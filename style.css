@@ -1,0 +1,177 @@
+.buttonStyle, .btnlr{
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #3eccc9);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 91%;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 9px;
+    outline: 2px solid transparent;
+    padding: 6px 5px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+.btnlr{    padding: 5px 15px}
+.btnBackForth{
+    display: flex;
+}
+.calendar-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    overflow-y: scroll;
+    position: absolute;
+}
+th, td{
+    /* height: 15px; */
+    /* width: 100%; */
+ 
+    border-bottom: 0.5px solid silver;
+    border-left: 0.5px solid silver;
+
+}
+/* .heading{
+    border-top: 0.5px solid silver;
+    border-right: 0.5px solid silver;
+}
+.trbody{
+    border-right: 0.5px solid silver; 
+} */
+.ec-button{
+    margin-bottom: .5em;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+tbody{
+    border: none;
+}
+
+.contentCalendar{
+    /* display: flex; */
+    width: 70%;
+    border-right: 0.5px solid silver;
+    border-top: 0.5px solid silver;
+    position: absolute;
+
+    min-height: 88%;
+    overflow-y: scroll;
+}
+
+.contentCalendar::-webkit-scrollbar {
+    border: 4px solid #fff;
+    box-shadow: none;
+    background: #dadce0;
+   width: 5px;
+    /* min-height: 40px; */
+ 
+     /* height: 8px; */
+
+}
+.contentCalendar::-webkit-scrollbar-thumb {
+       border-radius: 8px;
+    background: rgb(170, 72, 72);
+
+  }
+
+.firsttd{
+    text-align: center;
+    width: 6%;
+}
+
+
+  /* 
+      position: fixed;
+
+    width: 70%;
+    top: 48px;
+    display: flex;
+
+    justify-content: space-between;
+    border: 1px solid silver;
+  */
+
+.fa{
+    position: absolute;
+    top: 30px;
+    left: 382px;
+}
+.title{
+    display: flex;
+    width: 70.8%;
+    justify-content: space-around;
+    /* border: 0.5px solid silver; */
+    /* background-color: rgb(62, 204, 201,0.2); */
+    background-image: linear-gradient(to bottom, #fff, #3eccc9);
+    
+}
+.flx{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* border: 0.5px solid silver; */
+    background-color: rgb(62, 204, 201,0.2);
+}
+.daytitle{
+    display: none;
+    /* border: 2px solid black; */
+}
+.dh{
+    width: 12%;
+    text-align: center;
+    display: flex;
+    /* border: 0.5px solid silver; */
+    /* padding: 0% 5%; */
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: space-around;
+}
+  
+
+  /* input */
+  
+  /*  */
+  table{
+    width: 100%;
+  }
+
+  .daysName{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+  }
+  .dayOne{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .st{
+    justify-content: none;
+  }
+  .weektd{
+    height: 22px;
+     /* width: 100%; */
+  }
+  .weektd, .nctd{
+    height: 22px;
+    border-right: 1px solid silver;
+  }
+.dayOnetext{
+   width: 31%;
+}
+ 
